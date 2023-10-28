@@ -21,12 +21,13 @@
           <div class="container">
             <div class="nav-wrapper">
               <a href="#home" class="brand-logo">Kelompok-1</a>
-              <a href="#!" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+              <a href="#!" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down" >
                 <li><a href="#about">Pendahuluan</a></li>
-                <li><a href="#clients">Presentation-1</a></li>
-                <li><a href="#services">Presentation-2</a></li>
-                <li><a href="#portfolio">Presentation-3</a></li>
+                <li><a href="#clients">Pengertian</a></li>
+                <li><a href="#services">Konsep & Cara Kerja</a></li>
+                <li><a href="#portfolio">Contoh Kasus</a></li>
                 <li><a href="#contact">Penutup</a></li>
               </ul>
             </div>
@@ -34,13 +35,65 @@
         </nav>
       </div>
 
-      <!-- Side Nav -->
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="#about">Pendahuluan</a></li>
-        <li><a href="#clients">Presentation-1</a></li>
-        <li><a href="#services">Presentation-2</a></li>
-        <li><a href="#portfolio">Presentation-3</a></li>
-        <li><a href="#contact">Penutup</a></li>
+      <!-- Ini Adalah Sidenav Slide-Out & Collapsible -->
+      <ul id="slide-out" class="sidenav">
+        <ul class="collapsible expandable">
+          <li>
+            <div class="collapsible-header"><i class="material-icons">add_a_photo</i>Pendahuluan</div>
+            <div class="collapsible-body">
+              <div class="user-view">
+                <a href="#about"><img class="circle" src="img/slider/nophoto.jpg"></a>
+                <a href="#!"><span class="black-text name">Putri Alinda</span></a>
+                <a href="#!"><span class="black-text email">alinda77122@gmail.com</span></a>
+              </div>
+            </div>
+          </li>
+          <li><div class="divider"></div></li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">euro_symbol</i>Pengertian</div>
+            <div class="collapsible-body">
+              <div class="user-view">
+                <a href="#clients"><img class="circle" src="img/slider/agungg.jpg"></a>
+                <a href="#!"><span class="black-text name">M. Agung Gumelar</span></a>
+                <a href="#!"><span class="black-text email">muhammadambleng14@gmail.com</span></a>
+              </div>
+            </div>
+          </li>
+          <li><div class="divider"></div></li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">exit_to_app</i>Konsep & Cara Kerja</div>
+            <div class="collapsible-body">
+              <div class="user-view">
+                <a href="#services"><img class="circle" src="img/slider/SunGokong.PNG"></a>
+                <a href="#!"><span class="black-text name">Wan Dinul Aqli</span></a>
+                <a href="#!"><span class="black-text email">wdinulaqli@gmail.com</span></a>
+              </div>
+            </div>
+          </li>
+          <li><div class="divider"></div></li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i>Contoh Kasus</div>
+            <div class="collapsible-body">
+              <div class="user-view">
+                <a href="#portfolio"><img class="circle" src="img/slider/patkai.jpg"></a>
+                <a href="#!"><span class="black-text name">Muhammad Ridha Qufran</span></a>
+                <a href="#!"><span class="black-text email">ridhaqufran@gmail.com</span></a>
+              </div>
+            </div>
+          </li>
+          <li><div class="divider"></div></li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">local_activity</i>Penutup</div>
+            <div class="collapsible-body">
+                <div class="user-view">
+                  <a href="#contact"><img class="circle" src="img/slider/nophoto.jpg"></a>
+                  <a href="#!"><span class="black-text name">Sulistia Anjani</span></a>
+                  <a href="#!"><span class="black-text email">sulistiaanjani00@gmail.com</span></a>
+                </div>
+            </div>
+          </li>
+          <li><div class="divider"></div></li>
+        </ul>
       </ul>
 
       <!-- Ini Adalah Slider -->
@@ -372,6 +425,14 @@
 
         // const sideNav = document.querySelectorAll('.sidenav'); // js tolong carikan element dengan nama sidenav
         // M.Sidenav.init(sideNav);
+
+        // ____________Collapsible_______________
+        document.addEventListener('DOMContentLoaded', function() {
+          var elem = document.querySelector('.collapsible.expandable');
+          var instance = M.Collapsible.init(elem, {accordion: false});
+        });
+        // const elem = document.querySelectorAll('.collapsible');
+        // M.Collapsible.init(elem);
 
         // ____________Slider_______________
         const slider = document.querySelectorAll('.slider');
