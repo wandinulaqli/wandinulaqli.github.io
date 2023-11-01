@@ -1,6 +1,6 @@
 .slider h3,
 .slider h5,
-.clients h3 { /*text-shadow : css3 x y ( 1px kiri-kekanan 1px atas-kebawah 3px blurnya; kemudian warnanya hitam dengan alfa 0.5)*/
+.clients h3,i { /*text-shadow : css3 x y ( 1px kiri-kekanan 1px atas-kebawah 3px blurnya; kemudian warnanya hitam dengan alfa 0.5)*/
   text-shadow: 1px 1px 2px rgba(116,19,19,0.8);
 }
 
