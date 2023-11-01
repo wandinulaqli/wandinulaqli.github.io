@@ -14,8 +14,8 @@
 }
 
 .clients img{
-  max-width: 60%;
-  border-radius: 25%;
+  /* max-width: 60%;
+  border-radius: 25%; */
   /* max-height: 70px; */
   box-shadow: 1px 1px 1px black;
   /* Berguna untuk text-logo & Berfungsi Untuk mencari transparansi dari sebuah gambar(drop-shadow) */

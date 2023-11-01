@@ -35,8 +35,16 @@
         </nav>
       </div>
 
-      <!-- Ini Adalah Sidenav Slide-Out & Collapsible -->
+      <!-- Side Nav -->
+      <!-- <ul class="sidenav" id="slide-out">
+        <li><a href="#clients">Presentation-1</a></li>
+        <li><a href="#services">Presentation-2</a></li>
+        <li><a href="#portfolio">Presentation-3</a></li>
+        <li><a href="#contact">Penutup</a></li>
+      </ul> -->
+
       <ul id="slide-out" class="sidenav">
+        <!-- ini collaps -->
         <ul class="collapsible expandable">
           <li>
             <div class="collapsible-header"><i class="material-icons">add_a_photo</i>Pendahuluan</div>
@@ -85,7 +93,11 @@
           <li>
             <div class="collapsible-header"><i class="material-icons">local_activity</i>Penutup</div>
             <div class="collapsible-body">
+              <!-- <span>Lorem ipsum dolor sit amet.</span> -->
                 <div class="user-view">
+                  <!-- <div class="background">
+                    <img src="img/slider/re.jpg">
+                  </div> -->
                   <a href="#contact"><img class="circle" src="img/slider/nophoto.jpg"></a>
                   <a href="#!"><span class="black-text name">Sulistia Anjani</span></a>
                   <a href="#!"><span class="black-text email">sulistiaanjani00@gmail.com</span></a>
@@ -94,7 +106,26 @@
           </li>
           <li><div class="divider"></div></li>
         </ul>
+
+        <!-- ini bawaan slide-out-->
+        <!-- <li>
+          <div class="user-view">
+            <div class="background teal lighten-4">
+              <img src="images/office.jpg">
+            </div>
+            <a href="#about"><img class="circle" src="img/slider/fg.jpg"></a>
+            <a href="#about"><span class="white-text name">Putri Alinda</span></a>
+            <a href="#about"><span class="white-text email">jdandturk@gmail.com</span></a>
+          </div>
+        </li>
+        <li><a href="#about"><i class="material-icons">cloud</i>Pendahuluan</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li> -->
       </ul>
+
+
 
       <!-- Ini Adalah Slider -->
       <hr>
@@ -132,8 +163,13 @@
       <!-- Ini Adalah Abaut Us -->
       <section id="about" class="about grey lighten-3 scrollspy">
         <div class="container">
+          <div class="row valign-wrapper">
+            <img src="img/slider/nophoto.jpg" alt="" class="circle responsive-img" height="10%" width="10%">
+            <span class="grey-text"><i>Putri Alinda (2011040)</i></span>
+          </div>
           <div class="row">
             <h3 class="center light grey-text text-darken-3">Pendahuluan</h3>
+            <hr>
             <div class="col m6 s12 light">
               <h5>Manajemen Model</h5>
               <p>Subsistem model dalam sistem pendukung keputusan memungkinkan pengambilan keputusan menganalisis secara utuh dengan mengembangkan dan membandingkan alternatif solusi.<br>Integrasi model - model dalam sistem informasi manajemen yang berdasarkan integrasi data - data dari lapangan menjadi suatu sistem pendukung keputusan.<br>Terdapat berbagai jenis basis model yang dapat digunakan didalam subsistem manajemen model, sebagai salah satu komponen yang membangun sistem pendukung keputusan</p>
@@ -141,12 +177,12 @@
               <p>Model umumnya merepresentasikan kenyataan dan biasanya menirukan kenyataan tersebut.<br>Manajemen model yang dimaksud dapat berupa metode maupun perhitungan matematis sederhana yang akan digunakan untuk menyelesaikan permasalahan didalam suatu pemilihan solusi.<br>Suatu Sistem pendukung keputusan yang terdiri dari subsistem manajemen model biasanya terdiri dari beberapa kriteria (Multikriteria) yang digunakan dalam proses pemilihan alternatif yang akan dijadikan solusi.<br>Terdapat beberapa model atau metode yang dapat digunakan dalam subsistem manajemen model, salah satunya adalah ?</p>
             </div>
             <div class="col m6 s12">
-            <div class="card-panel teal lighten-2 center white-text">
+            <div class="card-panel teal lighten-3 center">
               <p>Cluster Berdasarkan Bentuk</p>
               <img src="img/materi/OIP (1).jpg" class="responsive-img materialboxed">
               <p>Cluster Berdasarkan Warna</p>
-              <img src="img/materi/OIP (2).jpg" class="responsive-img materialboxed">
-              <p><b>Selanjutnya pengertian K-Means Clustering akan diteruskan oleh Presentation-1 (2011013) M. Agung Gumelar</b></p>
+              <img src="img/materi/OIP (2).jpg" class="responsive-img materialboxed"><br>
+              <span>Selanjutnya pengertian K-Means Clustering akan diteruskan oleh Presentation-1 (2011013) M. Agung Gumelar</span>
             </div>
           </div>
         </div>
@@ -156,28 +192,36 @@
       <!-- Ini Adalah Clients -->
       <div id="clients" class="parallax-container scrollspy">
         <div class="parallax"><img src="img/clients/yellow-trees.jpg"></div>
-
         <div class="container clients">
-          <h3 class="center bold grey-text text-darken-4">Pengertian K-Means Clustering</h3>
+          <div class="row valign-wrapper">
+            <img src="img/slider/agungg.jpg" alt="" class="circle responsive-img" height="10%" width="10%">
+            <span><i>Muhammad Agung Gumelar (2011013)</i></span>
+          </div>
+          <h3 class="center light grey-text text-darken-4">Pengertian K-Means Clustering</h3>
+          <hr>
           <div class="row">
-            <div class="col m7 s12 center">
-              <div class="card-panel center">
+            <div class="col m7 s12 light">
+              <div class="card-panel center grey lighten-4">
                 <img src="img/clients/k-means-clustering-algorithm-in-machine-learning.png" alt="" class="responsive-img materialboxed">
                 <p>K-Means Clustering adalah algoritma yang berjenis supervisi / unsupervised machine learning algorithms yang populer dan sederhana.<br>K-Means Clustering termasuk salah satu metode yang melakukan pengelompokan data dengan sistem partisi.<br>K-Means Clustering juga merupakan salah satu metode cluster analisis non-hierarki yang berusaha untuk mengelompokkan data yang ada kedalam beberapa kelompok, dimana data dalam satu kelompok mempunyai karakteristik yang sama dan memiliki karakteristik yang berbeda dengan data yang ada didalam kelompok atau Cluster yang lain (Marisa, Zahma, et al., 2021).</p>
               </div>
             </div>
-            <div class="col m5 s12 center">
-              <div class="card-panel center">
-                <img src="img/clients/StuartLloyd.jpg" alt="" class="responsive-img materialboxed">
-                <p>https://thenorthernaffinity.co.uk/our_partners/stuart-lloyd/</p>
-                <p>K-Means ditemukan oleh beberapa orang yaitu Lloyd (1957,1982), Forgey (1965), Friedman dan Rubin (1967), and McQueen (1967).<br>Ide dari Clustering pertama kali ditemukan oleh Llyod pada tahun 1957. Namun hal tersebut baru dipublikasi pada tahun 1982. Pada tahun 1965, Forgey juga mempublikasikan teknik yang sama sehingga terkadang dikenal sebagai Llyod-Forgey pada beberapa sumber.</p>
+            <div class="col m5 s12 light">
+              <div class="card-panel center grey lighten-4">
+                <img src="img/clients/StuartLloyd.jpg" alt="" class="responsive-img materialboxed"><br>
+                <span>https://thenorthernaffinity.co.uk/our_partners/stuart-lloyd/</span>
+                <p>K-Means ditemukan oleh beberapa orang yaitu Lloyd (1957,1982), Forgey (1965), Friedman dan Rubin (1967), and McQueen (1967). Ide dari Clustering pertama kali ditemukan oleh Llyod pada tahun 1957. Namun hal tersebut baru dipublikasi pada tahun 1982. Pada tahun 1965, Forgey juga mempublikasikan teknik yang sama sehingga terkadang dikenal sebagai Llyod-Forgey pada beberapa sumber.</p>
               </div>
             </div>
-            <div class="col m12 s12 left">
-              <div class="card-panel center">
-                <img src="img/clients/1_dLrogayyf5UaLXD_8cmzpw.png" alt="" class="responsive-img materialboxed">
-                <p>K-Means Clustering menerima masukan berupa data tanpa label kelas. Hal ini berbeda dengan supervised learning yang menerima masukan berupa vektor (-x-1,y1).<br>Pada K-Means Clustering, komputer mengelompokkan sendiri data - data yang menjadi masukannya tanpa mengetahui terlebih dahulu target kelasnya. Pembelajaran ini termasuk dalam unsupervised learning.<br>Masukan yang diterima adalah data atau objek dan k buah kelompok (cluster) yang diinginkan. Algoritma ini akan mengelompokkan data atau objek kedalam k buah kelompok tersebut. Pada setiap cluster terdapat titik pusat (centroid) yang merepresentasikan cluster tersebut.</p>
-                <p><b>Selanjutnya Konsep dan cara kerja algoritma k-means clustering akan dijelaskan oleh Presentation-2 (2011042) Wan Dinul Aqli</b></p>
+            <div class="col m12 s12">
+              <div class="row center">
+                <div class="col m6 s12">
+                  <img src="img/clients/1_dLrogayyf5UaLXD_8cmzpw.png" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col m6 s12 grey-text text-lighten-4">
+                  <i><p><b>K-Means Clustering menerima masukan berupa data tanpa label kelas. Hal ini berbeda dengan supervised learning yang menerima masukan berupa vektor (-x-1,y1).<br>Pada K-Means Clustering, komputer mengelompokkan sendiri data - data yang menjadi masukannya tanpa mengetahui terlebih dahulu target kelasnya. Pembelajaran ini termasuk dalam unsupervised learning.<br>Masukan yang diterima adalah data atau objek dan k buah kelompok (cluster) yang diinginkan. Algoritma ini akan mengelompokkan data atau objek kedalam k buah kelompok tersebut. Pada setiap cluster terdapat titik pusat (centroid) yang merepresentasikan cluster tersebut.</b></p>
+                  <span>Selanjutnya Konsep dan cara kerja algoritma k-means clustering akan dijelaskan oleh Presentation-2 (2011042) Wan Dinul Aqli</span></i>
+                </div>
               </div>
             </div>
           </div>
@@ -188,82 +232,106 @@
       <!-- Ini Adalah  Service -->
       <section id="services" class="services grey lighten-3 scrollspy">
         <div class="container">
+          <div class="row valign-wrapper">
+              <img src="img/slider/SunGokong.PNG" alt="" class="circle responsive-img" height="10%" width="10%">
+              <span><i>Wan Dinul Aqli (2011042)</i></span>
+          </div>
+          <h3 class="light center grey-text text-darken-3">Konsep Perhitungan atau Cara Kerja Algoritma K-Means Clustering</h3><hr>
+          <div class="row center">
+            <div class="col m4 s12">
+              <img src="img/slider/partitioning.jpg" alt="" height="30%" width="100%" class="responsive-img materialboxed">
+            </div>
+            <div class="col m4 s6">
+              <img src="img/slider/hierarchical.jpg" alt="" height="30%" width="100%" class="responsive-img materialboxed">
+            </div>
+            <div class="col m4 s6">
+              <img src="img/slider/overlapping.jpg" alt="" height="30%" width="100%" class="responsive-img materialboxed">
+            </div>
+          </div><hr>
           <div class="row">
-            <h3 class="light center grey-text text-darken-3">Konsep Perhitungan atau Cara Kerja Algoritma K-Means Clustering</h3>
             <div class="col m6 s12">
-              <div class="card-panel center">
-                <i class="material-icons medium">filter_1</i>
-                <i class="material-icons medium">redo</i>
-                <h5>Preprocessing data</h5>
-                <p>Konsep atau langkah - langkah algoritma K-Means Clustering yang pertama adalah preprocesing data dan dilanjutkan
-                <b>Transformasi Data</b>
-                kemudian menentukan jumlah cluster (k)
-                <b>(Number of K)</b></p>
+              <div class="card-panel center grey lighten-4">
+                <i class="material-icons small">filter_1</i>
+                <span><b>PREPROCESING DATA</b></span>
+                <p class="light">Konsep atau langkah - langkah algoritma K-Means Clustering yang pertama adalah preprocesing data dan dilanjutkan
+                <u>transformasi data</u> kemudian menentukan jumlah cluster (k) <u>number of K.</u></p>
               </div>
             </div>
             <div class="col m6 s12">
-              <div class="card-panel center">
-                <i class="material-icons medium">filter_2</i>
-                <i class="material-icons medium">redo</i>
-                <h5>Memilih Centroid</h5>
-                <p>Pada tahap awal pemeilihan centroid dilakukan secara random sebanyak jumlah K yang ditentukan, titik ini akan menjadi pusat (centroid) dari masing-masing kelompok (cluster). Titik secara acak ini hanya diawal saja karna pada tahap selanjutnya pemilihan centroid itu dengan cara yang berbeda</p>
+              <div class="card-panel center grey lighten-4">
+                <i class="material-icons small">filter_2</i>
+                <span><b>MEMILIH CENTROID</b></span>
+                <p class="light">Pada tahap awal pemeilihan centroid dilakukan secara random sebanyak jumlah K yang ditentukan, titik ini akan menjadi pusat (centroid) dari masing-masing kelompok (cluster). Titik secara acak ini hanya diawal saja karna pada tahap selanjutnya pemilihan centroid itu dengan cara yang berbeda</p>
               </div>
             </div>
             <div class="col m12 s12">
-              <div class="card-panel center">
-                <p>Pada gambar dibawah ada 4 data pasien dengan masing-masing atribut A dan B dan sudah melewati tahap tranformasi data, kemudian jumlah clusternya ditentukan sebanyak 2 buah.</p>
-                <img src="img/materi/langkah1,2.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
+              <div class="card-panel center grey lighten-4">
+                <p class="light">Pada gambar dibawah ada 4 data pasien dengan masing-masing atribut A dan B dan sudah melewati tahap tranformasi data, kemudian jumlah clusternya ditentukan sebanyak 2 buah.</p>
+                <img src="img/materi/langkah1,2.PNG" alt="" class="responsive-img materialboxed">
               </div>
             </div>
             <div class="col m6 s12">
-              <div class="card-panel center">
-                <i class="material-icons medium">filter_3</i>
-                <i class="material-icons medium">redo</i>
-                <h5>Menghitung Jarak</h5>
-                <p>Menghitung jarak centroid ke objek dengan menggunakan rumus eucludean distance dan mengelompokkan berdasarkan jarak minimum (terkecil)</p>
+              <div class="card-panel center grey lighten-4">
+                <i class="material-icons small">filter_3</i>
+                <!-- <i class="material-icons medium">redo</i> -->
+                <span><b>MENGHITUNG JARAK</b></span>
+                <p class="light">Menghitung jarak centroid ke objek dengan menggunakan rumus <i>Eucludean Distance</i> dan mengelompokkan berdasarkan jarak minimum (terkecil)</p>
               </div>
             </div>
             <div class="col m6 s12">
-              <div class="card-panel center">
-                <i class="material-icons medium">filter_4</i>
-                <i class="material-icons medium">redo</i>
-                <h5>Melakukan Pengecekan</h5>
+              <div class="card-panel center grey lighten-4">
+                <i class="material-icons small">filter_4</i>
+                <!-- <i class="material-icons medium">redo</i> -->
+                <span><b>MELAKUKAN PENGECEKAN</b></span>
                 <p>Jika objek bergerak (centroidnya berubah) maka dilanjutkan proses iterasi, yang mana proses ini menentukan centroid baru berdasarkan nilai rata - rata dari data yang ada dimasing - masing cluster</p>
               </div>
             </div>
             <div class="col m12 s12">
-              <div class="card-panel center">
-                <h5>(Langkah ke-3 Iterasi 1)<br><b>Hitung Jarak data dengan Centroid awal dan Kelompokkan data dengan nilai cluster terkecil</b></h5>
-                <img src="img/materi/langkah1.3.1.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <img src="img/materi/langkah1.3.2.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h5>Mengelompokkan Data</h5>
+              <div class="card-panel center grey lighten-4">
+                <i>(Langkah ke-3 Iterasi 1)</i><br>
+                <span><b>Hitung Jarak data dengan Centroid awal dan Kelompokkan data dengan nilai cluster terkecil</b></span>
+                <img src="img/materi/langkah1.3.1.PNG" alt="" class="responsive-img materialboxed">
+                <img src="img/materi/langkah1.3.2.PNG" alt="" class="responsive-img materialboxed">
+                <span><b>Mengelompokkan Data</b></span>
                 <!-- <i class="material-icons medium">redo</i> -->
-                <img src="img/materi/langkah1.3.3.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h5>(Langkah ke-4 Iterasi 1)<br><b>Pengecekan</b></h5>
-                <img src="img/materi/langkah1.4.1.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h5><b>Hasilnya:</b> Ternyata Centroidnya berubah (Datanya Berpindah) Maka Diulangi langkah ke-3</h5>
-                <i class="material-icons medium">redo</i>
+                <img src="img/materi/langkah1.3.3.PNG" alt="" class="responsive-img materialboxed"><hr>
+                <i>(Langkah ke-4 Iterasi 1)</i><br>
+                <span><b>Pengecekan</b></span>
+                <img src="img/materi/langkah1.4.1.PNG" alt="" class="responsive-img materialboxed">
+                <span><b>Hasilnya:</b> Ternyata Centroidnya berubah (Datanya Berpindah) Maka Diulangi langkah ke-3</span>
+                <!-- <i class="material-icons small">redo</i> -->
               </div>
             </div>
             <div class="col m12 s12">
-              <div class="card-panel center">
-                <h5>(Langkah ke-3 Iterasi 2)<br><b>Hitung Jarak data dengan Centroid Terbaru dan Kelompokkan data dengan nilai cluster terkecil</b></h5>
-                <img src="img/materi/langkah2.3.1.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h5>(Langkah ke-4 Iterasi 2)<br><b>Pengecekan</b></h5>
-                <img src="img/materi/langkah2.3.2.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h5><b>Hasilnya:</b> Tidak ada data yang berpindah (Clusternya Tetap), Namun. Nilai Centroidnya Berbeda</h5>
+              <div class="card-panel center grey lighten-4">
+                <i class="material-icons small">filter_5</i>
+                <span><b>Jika Objek Berpindah (Nilai centroidnya berbeda dengan yang sebelumnya) Maka,</b></span>
+                <p class="light">Ulangi langkah ke tiga. Proses ini dilakukan sampai tidak ada objek (data) yang berpindah cluster dengan kata lain nilai centroidnya sama (tetap)</p>
+              </div>
+            </div>
+            <div class="col m12 s12">
+              <div class="card-panel center grey lighten-4">
+                <i>(Langkah ke-3 Iterasi 2)</i><br>
+                <span><b>Hitung Jarak data dengan Centroid Terbaru dan Kelompokkan data dengan nilai cluster terkecil</b></span>
+                <img src="img/materi/langkah2.3.1.PNG" alt="" class="responsive-img materialboxed"><br>
+                <i>(Langkah ke-4 Iterasi 2)</i><hr>
+                <span><b>Pengecekan</b></span>
+                <img src="img/materi/langkah2.3.2.PNG" alt="" class="responsive-img materialboxed">
+                <span><b>Hasilnya:</b> Tidak ada data yang berpindah (Clusternya Tetap), Namun. Nilai Centroidnya Berbeda</span>
                 <h5><b>Lantas Bagaimana?</b></h5>
-                <i class="material-icons medium">redo</i>
+                <!-- <i class="material-icons medium">redo</i> -->
               </div>
             </div>
             <div class="col m12 s12">
-              <div class="card-panel center">
-                <h5>Coba Kita Lanjutkan Iterasi ke-3 terlebih dahulu, setelah itu baru kita lihat hasilnya</h5>
-                <h5>(Langkah ke-3 Iterasi 3)<br><b>Hitung Jarak data dengan centroid paling baru dan Kelompokkan data dengan nilai cluster terkecil</b></h5>
-                <img src="img/materi/langkah3.3.1.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h5>(Langkah ke-4 Iterasi 3)<br><b>Pengecekan</b></h5>
-                <img src="img/materi/langkah3.4.1.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h5><b>Hasilnya:</b> Nilai Centroid Pada Iterasi ke-3 Sama dengan Nilai Centroid Iterasi ke-2 (Tidak ada yang berpindah Cluster)</h5>
+              <div class="card-panel center grey lighten-4">
+                <p class="light">Lanjutkan langkah ke-3 untuk memastikan nilai centroidnya benar-benar sama, setelah itu baru kita lihat hasilnya</p>
+                <i>(Langkah ke-3 Iterasi 3)</i><br>
+                <span><b>Hitung Jarak data dengan centroid paling baru dan Kelompokkan data dengan nilai cluster terkecil</b></span>
+                <img src="img/materi/langkah3.3.1.PNG" alt="" class="responsive-img materialboxed"><hr>
+                <i>(Langkah ke-4 Iterasi 3)</i><br>
+                <span><b>Pengecekan</b></span>
+                <img src="img/materi/langkah3.4.1.PNG" alt="" class="responsive-img materialboxed"><hr>
+                <span><b>Hasilnya:</b> Nilai Centroid Pada Iterasi ke-3 Sama dengan Nilai Centroid Iterasi ke-2 (Tidak ada data yang berpindah Cluster)</span>
                 <h5><b>Maka ?</b></h5>
                 <!-- <img src="img/materi/langkah3.5.1.PNG" alt=""> -->
                 <!-- <i class="material-icons medium">redo</i> -->
@@ -271,86 +339,112 @@
               </div>
             </div>
             <div class="col m12 s12">
-              <div class="card-panel center">
-                <i class="material-icons medium">reply_all</i>
-                <i class="material-icons medium">filter_5</i>
-                <h5>Jika Objek Tidak Berpindah (Nilai Centroidnya sama dengan yang sebelumnya) Maka</h5>
-                <i class="material-icons medium">verified_user</i>
-                <h5>Proses Selesai</h5>
-                <p><b>Cluster terakhir dicatat sebagai hasil cluster yang terbentuk.</b></p>
-                <img src="img/materi/langkah3.5.1.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
+              <div class="card-panel center grey lighten-4">
+                <i>(Langkah ke-5 Iterasi 3)</i><br>
+                <i class="material-icons small">reply_all</i>
+                <i class="material-icons small">filter_5</i>
+                <span><b>Jika Objek Tidak Berpindah (Nilai Centroidnya sama dengan yang sebelumnya) Maka?</b></span><hr>
+                <i class="material-icons medium">verified_user</i><br>
+                <i><b>PROSES SELESAI</i></b><br>
+                <span>Cluster terakhir dicatat sebagai hasil cluster yang terbentuk.</span>
+                <img src="img/materi/langkah3.5.1.PNG" alt="" class="responsive-img materialboxed"><br>
                 <!-- <i class="material-icons medium">keyboard_arrow_down</i> -->
                 <!-- <i class="material-icons medium">keyboard_arrow_left</i>
                 <i class="material-icons medium">keyboard_arrow_right</i>
                 <i class="material-icons medium">keyboard_arrow_up</i> -->
-                <p><b>Selanjutnya Contoh Kasus algoritma k-means clustering akan dijelaskan oleh Presentation-3 (2011036) Muhammad Ridha Qufran</b></p>
+                <span>Selanjutnya Contoh Kasus algoritma k-means clustering akan dijelaskan oleh Presentation-3 (2011036) Muhammad Ridha Qufran</span>
               </div>
             </div>
           </div>
-        </div>
+        </div><hr><hr>
       </section>
 
 
       <!-- Ini Adalah PortFolio -->
-      <section id="portfolio" class="portfolio scrollspy">
+      <section id="portfolio" class="portfolio grey lighten-5 scrollspy">
         <div class="container">
-          <h3 class="light center grey-text text-darken-3">Contoh Kasus</h3>
+          <div class="row valign-wrapper">
+              <img src="img/slider/patkai.jpg" alt="" class="circle responsive-img" height="10%" width="10%">
+              <span><i>Muhammad Ridha Qufran (2011036)</i></span>
+          </div>
           <div class="row">
+            <h4 class="light grey-text text-darken-3 center">Contoh Kasus</h4><hr>
             <div class="col m12 s12">
-              <div class="card-panel center">
+              <div class="card-panel center pink lighten-3">
                 <h5>Dalam Penerapannya algoritma K-Means Clustering memiliki beberapa kelebihan, yaitu :</h5>
-                <i class="material-icons medium">filter_1</i>
-                <h6>Mudah untuk diimplementasikan dan dijalankan</h6>
-                <i class="material-icons medium">filter_2</i>
-                <h6>Waktu yang dibutuhkan untuk pembelajaran ini relatif cepat</h6>
-                <i class="material-icons medium">filter_3</i>
-                <h6>Mudah untuk diadaptasi</h6>
-                <i class="material-icons medium">filter_4</i>
-                <h6>Umum digunakan</h6>
+                <i class="material-icons small">filter_1</i>
+                <span>Mudah untuk diimplementasikan dan dijalankan</span><br>
+                <i class="material-icons small">filter_2</i>
+                <span>Waktu yang dibutuhkan untuk pembelajaran ini relatif cepat</span><br>
+                <i class="material-icons small">filter_3</i>
+                <span>Mudah untuk diadaptasi</span><br>
+                <i class="material-icons small">filter_4</i>
+                <span>Umum digunakan</span>
             </div>
-
             <div class="col m12 s12">
-              <div class="card-panel center">
-                <h5>Sekarang, coba kita lihat salah satunya yaitu:<br><b>"Mudah untuk diadaptasi"</b></h5>
-                <img src="img/portfolio/jurnal1.1.PNG" alt="" class="responsive-img materialboxed" height="100%" width="100%">
-                <h6>Pada jurnal diatas terlihat bahwa penerapan metode K-Means Clustering digunakan untuk menentukan pemilihan konsentrasi pada mahasiswa semester 3 <i>International Class</i> Jurusan Teknik Informatika Angkatan 2013 STMIK AMIKOM Yogyakarta.<br>Penentuan Konsentrasi berdasarkan jumlah SKS yang telah diambil selama perkuliahan dan bobot nilai mata kuliah terkait yang ada pada kurikulum yang ditawarkan.</h6>
-                <h6>Pada tahap awal, data yang akan diolah sebanyak 12 data mahasiswa beserta nilai dari masing-masing atribut yang dimilikinya.</h6>
-                <img src="img/portfolio/jurnal1.1.1.PNG" alt="" class="responsive-img materialboxed"><br>
-                <img src="img/portfolio/jurnal1.1.2.PNG" alt="" class="responsive-img materialboxed">
-                <h6>Selanjutnya data-data tadi ditransformasikan kedalam bentuk numerik.</h6>
-                <img src="img/portfolio/jurnal1.1.3.PNG" alt="" class="responsive-img materialboxed">
-                <h6>Setelah menentukan jumlah kluster (K) = 3, maka dilanjutkan untuk menentukan centroid secara acak, <i>ini hanya dilakukan pada tahap awal.</i></h6>
-                <img src="img/portfolio/jurnal1.1.4.PNG" alt="" class="responsive-img materialboxed">
-                <h6>Langkah ketiga dilakukan, yaitu menghitung jarak data dengan kluster terdekat berdasarkan nilai terkecil, dan dilanjutkan mengelompokkan data berdasarkan cluster.</h6>
-                <img src="img/portfolio/jurnal1.1.5.PNG" alt="" class="responsive-img materialboxed">
+              <div class="card-panel center pink lighten-3">
+                <h5>Sekarang, coba kita lihat salah satunya yaitu:<br><i><b>"Mudah untuk diadaptasi"</b></i></h5><hr>
+                <div class="row valign-wrapper">
+                  <div class="col s4 m4 center">
+                    <img src="img/portfolio/jurnal1.1.PNG" alt="" class="responsive-img materialboxed">
+                  </div>
+                  <div class="col s8 m8 center">
+                    <span>Pada jurnal disamping terlihat bahwa penerapan metode K-Means Clustering digunakan untuk menentukan pemilihan konsentrasi pada mahasiswa semester 3 <i>International Class</i> Jurusan Teknik Informatika Angkatan 2013 STMIK AMIKOM Yogyakarta. Penentuan Konsentrasi berdasarkan jumlah SKS yang telah diambil selama perkuliahan dan bobot nilai mata kuliah terkait yang ada pada kurikulum yang ditawarkan.</span>
+                  </div>
+                </div><hr>
+              </div>
+              <div class="card-panel pink lighten-3"><hr>
+                <div class="row valign-wrapper">
+                  <div class="col s6 m6 center">
+                    <h6><i>Pada tahap awal,</i> data yang akan diolah sebanyak 12 data mahasiswa beserta nilai dari masing-masing atribut yang dimilikinya.</h6>
+                    <img src="img/portfolio/jurnal1.1.1.PNG" alt="" class="responsive-img materialboxed">
+                    <img src="img/portfolio/jurnal1.1.2.PNG" alt="" class="responsive-img materialboxed"><br>
+                  </div>
+                  <div class="col s6 m6 center">
+                    <h6>Selanjutnya data-data tadi ditransformasikan kedalam bentuk numerik.</h6>
+                    <img src="img/portfolio/jurnal1.1.3.PNG" alt="" class="responsive-img materialboxed">
+                    <h6><i>Setelah menentukan jumlah kluster (K) = 3,</i> maka dilanjutkan untuk menentukan centroid secara acak, <i>ini hanya dilakukan pada tahap awal.</i></h6>
+                    <img src="img/portfolio/jurnal1.1.4.PNG" alt="" class="responsive-img materialboxed">
+                  </div>
+                </div><hr>
+                <div class="row valign-wrapper">
+                  <div class="col m6 s6 center">
+                    <h6><i>Langkah ketiga dilakukan,</i> yaitu menghitung jarak data dengan kluster terdekat berdasarkan nilai terkecil, dan dilanjutkan mengelompokkan data berdasarkan cluster.</h6>
+                    <img src="img/portfolio/jurnal1.1.5.PNG" alt="" class="responsive-img materialboxed">
+                  </div>
+                  <div class="col m6 s6 center">
+                    <h6><i>Langkah ke empat</i> (pengecekan dan menghitung nilai rata-rata pada tiap cluster untuk nilai centroid berikutnya)</h6>
+                    <img src="img/portfolio/jurnal1.2.1.PNG" alt="" class="responsive-img materialboxed">
+                    <h6>Nah barulah pada langkah keempat (Perpindahan dari Iterasi-1 ke Iterasi-2) <i>dijurnal ini terdapat sebuah kesalahan,</i>  yaitu tidak sesuainya hasil dari perhitungan jarak antara data-data pada ke-cluster terdekatnya, yang mengakibatkan langkah ini sama dengan langkah pada iterasi sebelumnya.</h6>
+                    <h6>Hasil Pengelompokkan berdasarkan Centroid yang SALAH (pada Iterasi ke-2)</h6>
+                    <img src="img/portfolio/jurnal1.2.2.PNG" alt="" class="responsive-img materialboxed">
+                  </div>
+                </div><hr>
               </div>
             </div>
             <div class="col m12 s12">
-              <div class="card-panel center">
-                <h6>Langkah ke empat (pengecekan dan menghitung nilai rata-rata pada tiap cluster untuk nilai centroid berikutnya)</h6>
-                <img src="img/portfolio/jurnal1.2.1.PNG" alt="" class="responsive-img materialboxed">
-                <h5>Nah barulah pada langkah keempat (Perpindahan dari Iterasi-1 ke Iterasi-2) dijurnal ini terdapat sebuah kesalahan, yaitu tidak sesuainya hasil dari perhitungan jarak antara data-data pada ke-cluster terdekatnya, yang mengakibatkan langkah ini sama dengan langkah pada iterasi sebelumnya.</h5>
-                <h6>Hal ini mengakibatkan centroid yang dihasilkan untuk Iterasi ke-2 tidak sesuai aturan atau sama dengan centroid pertama yang ditentukan secara acak</h6>
-                <h6>Hasil Pengelompokkan berdasarkan Centroid yang SALAH (pada Iterasi ke-2)</h6>
-                <img src="img/portfolio/jurnal1.2.2.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h6>Selanjutnya dilakukan pengecekan dan penentuan centroid baru untuk Iterasi ke-3</h6>
-                <img src="img/portfolio/jurnal1.2.3.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <img src="img/portfolio/jurnal1.2.4.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-                <h6>Setelah dilakukan penghitungan jarak dan pengecekan sampai iterasi keempat akhirnya terbentuklah data sebagai berikut.</h6>
-                <img src="img/portfolio/jurnal1.2.5.PNG" alt="" class="responsive-img materialboxed" height="20%" width="100%">
-              </div>
-            </div>
-            <div class="col m12 s12">
-              <div class="card-panel center">
-                <h5><b>Jadi Bagaimana dengan Kesalahan nilai centroid yang digunakan untuk perhitungan jarak iterasi ke-2 tadi?</b></h5>
+              <div class="card-panel center pink lighten-3">
+                <h6>Hal ini mengakibatkan centroid yang dihasilkan untuk Iterasi ke-2 tidak sesuai aturan atau sama dengan centroid pertama yang ditentukan secara acak</h6><hr>
+                <div class="row valign-wrapper">
+                  <div class="col m6 s6 center">
+                    <h6>Selanjutnya dilakukan pengecekan dan penentuan centroid baru untuk Iterasi ke-3</h6>
+                    <img src="img/portfolio/jurnal1.2.3.PNG" alt="" class="responsive-img materialboxed"><br>
+                    <img src="img/portfolio/jurnal1.2.4.PNG" alt="" class="responsive-img materialboxed">
+                  </div>
+                  <div class="col m6 s6 center">
+                    <h6>Setelah dilakukan penghitungan jarak dan pengecekan sampai iterasi keempat akhirnya terbentuklah data sebagai berikut.</h6>
+                    <img src="img/portfolio/jurnal1.2.5.PNG" alt="" class="responsive-img materialboxed">
+                  </div>
+                </div><hr>
+                <h5><b>Jadi Bagaimana dengan Kesalahan nilai centroid yang digunakan pada perhitungan jarak iterasi ke-2 tadi?</b></h5>
                 <h6>Kesalahan tersebut membuktikan bahwasanya algoritma K-Means Clustering memang "Mudah untuk diadaptasi" <i>paling tidak hanya untuk beberapa kasus tertentu saja</i>.<br><b>artinya apa</b>, walaupun terdapat kesalahan pada penghitungan jarak yang mengakibatkan terbentuknya centroid yang salah, hal ini tidak terlalu berpengaruh untuk Iterasi berikutnya, karena pada iterasi selanjutnya nilai untuk centroid akan dihitung berdasarkan nilai rata-rata dari masing-masing cluster. Hanya saja kesalahan ini membuat kita kembali ke langkah awal yaitu <b>penentuan centroid secara acak</b>, dan menambah pengulangan dalam proses iterasi.</h6>
-                <p><b>Selanjutnya presentasi sampai pada tahap penutup: (2011021) Sulistia Anjani</b></p>
+                <span>Selanjutnya presentasi sampai pada tahap penutup: (2011021) Sulistia Anjani</span>
               </div>
             </div>
           </div>
         </div>
       </section>
-
+      <hr><hr>
       <div class="row">
         <div class="col m3 s3">
           <img src="img/portfolio/jurnal1.1.PNG" alt="" class="responsive-img materialboxed" height="20%">
@@ -365,10 +459,15 @@
           <img src="img/clients/flatlay.jpg" alt="" class="responsive-img materialboxed" height="20%">
         </div>
       </div>
+      <hr><hr>
 
       <!-- Ini Contact Us -->
       <section id="contact" class="contact grey lighten-3 scrollspy">
         <div class="container">
+          <div class="row valign-wrapper">
+            <img src="img/slider/nophoto.jpg" alt="" class="circle responsive-img" height="10%" width="10%">
+            <span class="teal-text"><i>Sulistia Anjani (2011021)</i></span>
+          </div>
           <h3 class="light grey-text text-darken-3 center">Penutup</h3>
           <div class="row">
             <div class="col m12 s12">
@@ -377,9 +476,9 @@
               </div>
               <ul class="collection with-header">
                 <li class="collection-header center"><h4>Kekurangan Algoritma K-Means Clustering</h4></li>
-                <li class="collection-item">- Sebelum algoritma dijalankan, k buah titik diinisialisasi secara random sehingga pengelompokan data yang dihasilkan dapat berbeda-beda. Jika nilai random untuk inisialisasi kurang baik, maka pengelompokan yang dihasilkan pun menjadi kurang optimal.</li>
-                <li class="collection-item">- Dapat terjebak dalam masalah yang disebut <i>curse of dimensionality</i>. Hal ini dapat terjadi jika data pelatihan memiliki dimensi yang sangat tinggi, Sebagai contoh, jika data pelatihan terdiri dari dua atribut maka jumlah dimensinya adalah dua buah. Namun jika data pelatihan memiliki 20 atribut, maka akan ada 20 dimensi. Salah satu cara kerja algoritma ini adalah mencari jarak terdekat antara k buah titik dengan titik lainnya. Jika mencari jarak antara titik pada 2 dimensi, masih mudah dilakukan. Namun bagaimana mencari jarak antar titik jika terdapat 20 dimensi. Hal ini akan menjadi sulit.</li>
-                <li class="collection-item">- Jika hanya terdapat beberapa titik sampel data, maka cukup mudah untuk menghitung dan mencari titik terdekat dengan k titik yang diinisialisasi secara random. Namun jika terdapat banyak sekali titik data (misalnya satu miliyar buah data), maka perhitungan dan pencarian titik terdekat akan membutuhkan waktu yang lama. Proses tersebut dapat dipercepat, namun dibutuhkan struktur data yang lebih rumit seperti <i>D-Tree</i> atau <i>hashing.</i></li>
+                <li class="collection-item"><i class="material-icons small">filter_1</i> <span>Sebelum algoritma dijalankan, <i>k buah titik diinisialisasi secara random</i> sehingga pengelompokan data yang dihasilkan dapat berbeda-beda. Jika nilai random untuk inisialisasi kurang baik, maka pengelompokan yang dihasilkan pun menjadi kurang optimal.</span></li>
+                <li class="collection-item"><i class="material-icons small">filter_2</i> <span>Dapat terjebak dalam masalah yang disebut <i>curse of dimensionality</i>. Hal ini dapat terjadi jika data pelatihan memiliki dimensi yang sangat tinggi, Sebagai contoh, jika data pelatihan terdiri dari dua atribut maka jumlah dimensinya adalah dua buah. Namun jika data pelatihan memiliki 20 atribut, maka akan ada 20 dimensi. Salah satu cara kerja algoritma ini adalah mencari jarak terdekat antara k buah titik dengan titik lainnya. Jika mencari jarak antara titik pada 2 dimensi, masih mudah dilakukan. Namun bagaimana mencari jarak antar titik jika terdapat 20 dimensi. Hal ini akan menjadi sulit.</span></li>
+                <li class="collection-item"><i class="material-icons small">filter_3</i> <span>Jika hanya terdapat beberapa titik sampel data, maka cukup mudah untuk menghitung dan mencari titik terdekat dengan k titik yang diinisialisasi secara random. Namun jika terdapat banyak sekali titik data (misalnya satu miliyar buah data), maka perhitungan dan pencarian titik terdekat akan membutuhkan waktu yang lama. Proses tersebut dapat dipercepat, namun dibutuhkan struktur data yang lebih rumit seperti <i>D-Tree</i> atau <i>hashing.</i></span></li>
               </ul>
             </div>
 
@@ -417,6 +516,7 @@
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript">
+
         // ____________SideBar_______________
         document.addEventListener('DOMContentLoaded', function() {
           var elems = document.querySelectorAll('.sidenav');
